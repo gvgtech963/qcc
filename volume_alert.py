@@ -4,6 +4,9 @@ import smtplib
 from email.message import EmailMessage
 from datetime import datetime, timedelta, timezone
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # ============================================================
